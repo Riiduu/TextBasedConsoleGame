@@ -1,0 +1,28 @@
+Game starts with you waking up in a random dungeon and getting an option of walking to left or right tunnels
+    : left - you find a pickaxe
+    : right - you find a sword - +3 attack damage + adds to inventory
+
+pickaxe:
+    starts digging a tunnel to find a way out and falls into a gigabird nest with 3 golden eggs inside
+    Pick up an egg?
+        : decline - a bird hatches from the egg and you tame it
+        : accept - bird mother flies to the nest and you have to fight it with your pickaxe
+            : died - game ends
+            : survived - look around for loot and you see a bunch of chests below you and you go there
+
+        
+
+
+
+sword:
+    you see an escape out of the dungeon but you also see a crowd of skeletons ganging up on a dead animal, what are you gonna go?
+
+    escape:
+        you are in the middle of a forest
+
+    skeletons:
+        fighting scene:
+            if died - game ends
+            if survived - looks around for loot and finds a bow
+                : pick up
+                : leave it - show available inventory space
